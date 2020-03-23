@@ -25,12 +25,12 @@ variable "role_arns" {
     default = null
 }
 
-variable "default_lease_ttl_seconds" {
+variable "default_sts_ttl" {
     type = number
     default = null
 }
 
-variable "max_lease_ttl_seconds" {
+variable "max_sts_ttl" {
     type = number
     default = null
 }
